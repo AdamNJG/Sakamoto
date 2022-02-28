@@ -48,6 +48,6 @@ public static string FindDayFromDate( string date ) {
 	System.Globalization.CultureInfo enGB = new System.Globalization.CultureInfo("en-GB");
 	DateTime dateTime = System.DateTime.Parse(dateString, enGB);
 
-	Console.WriteLine(dateTime.DayOfWeek);
+	Console.WriteLine(dateTime.DayOfWeek); // I know this works so this allows me to use it as a test.
 	Console.WriteLine(FindDayFromDate(dateString));
 
